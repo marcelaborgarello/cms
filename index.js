@@ -18,8 +18,6 @@ const addWorkCard = (params) => {
     template.content.querySelector(".portfolio-card-link-apx").textContent =
       "APX SCHOOL";
 
-    console.log(el.fields.title);
-
     template.content.querySelector(".portfolio-card-link").href = el.fields.url;
 
     const clone = document.importNode(template.content, true);

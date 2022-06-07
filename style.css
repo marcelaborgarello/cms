@@ -27,16 +27,10 @@ body {
   padding: 40px;
   display: grid;
   gap: 40px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 1200px) {
-  .portfolio-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 960px) {
+@media (max-width: 768px) {
   .portfolio-content {
     grid-template-columns: 1fr;
   }
